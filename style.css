@@ -1,0 +1,179 @@
+
+
+body{
+    background-color: #f1e7e7;
+    margin: 0;
+    padding: 0;
+    color: #bf1111;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar-main{
+
+    background-color: #f7e1e1;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav-item{
+    padding-left: 1rem;
+}
+.nav-hyper{
+    text-decoration: none;
+    color: #bf1111;
+}
+
+.nav-hyper:hover{
+    text-decoration: underline;
+    text-decoration-color: #bf1111;
+}
+
+.nav-brand{
+    font-weight: 800;
+    font-size: 1.15rem;
+}
+
+.nav-brand.nav-hyper:hover{
+    text-decoration: none;
+}
+
+.main-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: "Bebas Neue", cursive;
+}
+
+.heading h1{
+    font-size: 3rem;
+}
+
+.heading p{
+    font-size: 1.5rem;
+}
+
+.about{
+    background-color: #f7e1e1
+}
+
+.text-padding{
+    padding: 2rem;
+}
+
+.place{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #f7e1e1;
+    width: 50%;
+}
+
+.places-list{
+    list-style: none;
+    margin: 3rem auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.place-image{
+    aspect-ratio: 16/9;
+    width: 25%;
+    height: auto;
+    object-fit: cover;
+    float: right;
+    margin-left: 1rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.place-btn{
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #bf1111;
+    color: #f7e1e1;
+    background-color:#bf1111;
+
+}
+
+.place-btn:hover{
+    color: #bf1111;
+    background-color: #f7e1e1;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.place-btn:active{
+    background-color: #bf1111;
+    color: #f7e1e1;
+}
+
+#contact{
+    background-color: #f7e1e1;
+}
+
+.footer{
+    background-color: #bf1111;
+    color: #f7e1e1;
+    text-align: center;
+    padding: 1rem;
+}
+
+.contact{
+    width: 100%;
+}
+
+#message{
+    width: 10rem;
+}
+
+.width-about{
+    width: 75%;
+}
+
+.why-us{
+    background-color: #f7e1e1
+}
+
+.img-about{
+    object-fit: cover;
+    float: right;
+    margin-right: 1rem;
+}
+
+.place-w-100{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #f7e1e1;
+}
